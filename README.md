@@ -33,4 +33,4 @@ This repository contains materials related to my Bachelor thesis, including:
 To run the provided scripts, install the following Python packages:
 
 ```bash
-pip install requests beautifulsoup4 llama-index pydantic llama-index-embeddings-huggingface llama-hub unstructured callbacks ollama llama-index-llms-ollama huggingface-hub langchain-community llama-index-llms-langchain nltk python-dotenv llama-index-readers-web transformers torch bitsandbytes accelerate
+pip install requests beautifulsoup4 llama-index pydantic==1.10.11 llama-index-embeddings-huggingface black python-dotenv llama-hub unstructured callbacks llama-index-readers-web transformers sentence-transformers torch llama-index-llms-huggingface llama-index-readers-json huggingface-hub langchain-community llama-index-llms-langchain bitsandbytes accelerate
