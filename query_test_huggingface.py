@@ -68,7 +68,7 @@ retriever = VectorIndexRetriever(
     similarity_top_k=8,
 )
 
-# configure response synthesizer
+# configure response synthesizer, where the essential LLM call happens
 response_synthesizer = get_response_synthesizer()
 
 
